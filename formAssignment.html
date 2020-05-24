@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="formCss.css">
+</head>
+<body>
+    <h1><img src="efilinglogo.gif"></h1>
+    <form action="formAssign.php" method="post">
+        Name :<input type="text" id="Name" name="Name"><br>
+        Fathers Name:<input type="text" id="fName" name="fName"><br>
+        Mothers Name:<input type="text" id="mName" name="mName"><br>
+        D.O.B :<input type="date" id="Birth" name="Birth"><br>
+        Email:<input type="email" id="email" name="email"><br>
+        Age: <input type="number" id="Age" name="Age"><br>
+        Adhar Number: <input type="number" id="Adhar" name="Adhar"><br>
+        Gender :Male<input type="radio" id="gender" name="gender" value="Male"> 
+        Female<input type="radio" id="gender" name="gender" value="Female"><br>
+        Job sector: <select id="Job" name="Job">
+            <option value="Government">Govt</option>
+            <option value="Private Sector">Private</option>
+            <option value="Entrepreneur">Entrepreneur</option>
+        </select> <br>
+        Address :<input type="text" id="address" name="address"><br>
+        Annual Income Range:<select id="income" name="income">
+            <option value=1>0-7 lakh</option>
+            <option value=2>7 lakh- 15 lakh</option>
+            <option value=3>Above 15 lakh</option>  
+        </select>  <br>
+        Overall Income:<input type="number" id="amount" name="amount"><br>  
+        <input type="submit">
+    </form>
+    <script src="formJS.js"></script>
+</body>
+</html>
